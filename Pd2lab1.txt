@@ -1,0 +1,51 @@
+S1)
+
+x = 10, y = 20
+x = 11, y = 41
+x = 11, y = 20
+x = 5
+
+S2)
+
+deneme1.c gid değişken değeri: 287
+deneme2.c gid değişken değeri : 287
+
+S3)
+
+start_t değeri: 0
+end_t değeri: 120
+Döngü çalışma süresi (saniye): 0.098700
+
+S4)
+
+fonk() id değişken değeri: 1
+fonk() id değişken değeri: 22
+fonk_sta() id değişken değeri: 1
+fonk_sta() id değişken değeri: 22
+
+fonk() id değişken değeri: 1
+fonk() id değişken değeri: 22
+fonk_sta() id değişken değeri: 22
+fonk_sta() id değişken değeri: 43
+
+S5)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void circle (float);
+void main()
+{
+	float radius;
+	scanf("%f", &radius);
+	circle(radius);
+}
+
+void circle(float radius)
+{
+	float pi= 3.14;
+	float area;
+	area = pi* radius*radius;
+	printf("Area of circle= %.2f", area);
+}
