@@ -1,0 +1,12 @@
+Student no: 2210213050
+Student name: feyza
+Student department: bilgisayar
+
+Student no: 2210225072
+Student name: isra
+Student department: pc
+
+Student no: 2210225066
+Student name: ibo
+Student department: pc
+
